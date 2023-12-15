@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 :root{
-    --color-second:#f0f0f0;
-    --color-white:#fff;
-    --color-success:#2ecc71;
-    --color-error:#e74c3c;
+    --color-second:#cc3e3e;
+    --color-white:#67be3f;
+    --color-success:#535de6;
+    --color-error:#14a04e;
 }
 .bodys{
     background: var(--color-first);
@@ -68,10 +68,11 @@
     left: 0;
     visibility: hidden;
 }
-.form button{
-    background: var(--color-first);
+
+button{
+    background:#0515ff;
     border: 2px solid var(--color-first);
-    color: var(--color-white);
+    color:#ffffff;
     display: block;
     font-family: inherit;
     border-radius: 4px;
